@@ -108,7 +108,7 @@ const About = () => {
           >
             <div className="team-member">
               <div className="member-avatar">
-                <img src="/eren.jpg" alt="Eren Albeniz" className="profile-avatar" />
+                <img src={process.env.PUBLIC_URL + '/eren.jpg'} alt="Eren Albeniz" className="profile-avatar" />
               </div>
               <h4>Eren Albeniz</h4>
               <p className="member-role">Project Leader</p>
@@ -118,7 +118,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="/ozcan.jpg" alt="Özcan Albeniz" className="profile-avatar" />
+                <img src={process.env.PUBLIC_URL + '/ozcan.jpg'} alt="Özcan Albeniz" className="profile-avatar" />
               </div>
               <h4>Özcan Albeniz</h4>
               <p className="member-role">Project Leader</p>
@@ -128,7 +128,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="/ziyahan.jpeg" alt="Ziyahan Albeniz" className="profile-avatar" />
+                <img src={process.env.PUBLIC_URL + '/ziyahan.jpeg'} alt="Ziyahan Albeniz" className="profile-avatar" />
               </div>
               <h4>Ziyahan Albeniz</h4>
               <p className="member-role">Software Developer</p>
@@ -138,7 +138,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="/fatma.jpg" alt="Fatma Albeniz" className="profile-avatar" />
+                <img src={process.env.PUBLIC_URL + '/fatma.jpg'} alt="Fatma Albeniz" className="profile-avatar" />
               </div>
               <h4>Fatma Albeniz</h4>
               <p className="member-role">UI/UX Designer</p>
